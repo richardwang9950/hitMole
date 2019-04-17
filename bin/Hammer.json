@@ -1,0 +1,1 @@
+{"type":"View","props":{"width":100,"runtime":"script/Hammer.ts","height":100},"compId":2,"child":[{"type":"Image","props":{"skin":"ui/hammer.png"},"compId":4}],"loadList":["ui/hammer.png"],"loadList3D":[]}
