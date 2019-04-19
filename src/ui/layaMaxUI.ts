@@ -7,7 +7,7 @@ export module ui {
     export class GameUI extends Laya.View {
 		public normal:Laya.Sprite;
 		public timebar:Laya.ProgressBar;
-		public scorelabel:Laya.Label;
+		public scorelabel:Laya.FontClip;
         constructor(){ super()}
         createChildren():void {
             super.createChildren();
@@ -17,7 +17,7 @@ export module ui {
     REG("ui.GameUI",GameUI);
     export class GameOverUI extends Laya.View {
 		public restartBtn:Laya.Button;
-		public score:Laya.Label;
+		public score:Laya.FontClip;
         constructor(){ super()}
         createChildren():void {
             super.createChildren();

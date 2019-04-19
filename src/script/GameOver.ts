@@ -26,6 +26,6 @@ export default class GameOverView extends ui.GameOverUI {
     }
     // 设置分数显示
     onOpened(score){
-        this.score.text = ""+score;
+        this.score.value = ""+score;
     }
 }

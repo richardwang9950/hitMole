@@ -66,7 +66,7 @@ export default class GameView extends ui.GameUI {
     gameOver() {
         this.hammer.end()
         Laya.timer.clear(this, this.onLoop)
-        Laya.Scene.open("GameOver.scene",true,this.scorelabel.text)
+        Laya.Scene.open("GameOver.scene",true,this.scorelabel.value)
     }
     // 击中地鼠回调记录分数
     setScore(type) {
@@ -78,6 +78,6 @@ export default class GameView extends ui.GameUI {
     }
     // 更新分数显示
     updateScoreUI(score) {
-        this.scorelabel.text = ""+score;
+        this.scorelabel.value = ""+score;
     }
 }
